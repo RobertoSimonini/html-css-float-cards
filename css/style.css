@@ -27,8 +27,10 @@ p {
 
 /* Generics  */
 img {
-    height: 150px;
+    height: 125px;
     float: left;
+    padding-right: 1rem;
+
 }
 .container {
     max-width: 75%;
@@ -37,15 +39,35 @@ img {
 
 .column {
 float: left;
-text-align: center;
-width: calc(100% / 3);
-border: 1px solid black;
+width: calc(100% / 3 - 2rem);
+background-color: black;
+color: white;
+margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #5cb3de;
+}
+
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.infos {
+    margin: 1rem;
+    padding-top: 0.5rem;
 }
 
 
 
 
+
 /* utils  */
+
 
 
 
