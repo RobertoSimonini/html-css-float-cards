@@ -1,0 +1,43 @@
+/* Css reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Header  */
+header, p {
+    
+    text-align: center;
+    margin: 3rem 0;
+}      
+
+
+h1 {
+    color: #e4346f;
+    font-size: 40px;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+/* Generics  */
+
+
+/* utils  */
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Sections  */
