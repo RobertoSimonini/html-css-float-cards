@@ -16,8 +16,7 @@ header, p {
 
 h1 {
     color: #e4346f;
-    font-size: 40px;
-    
+    font-size: 40px;   
 }
 
 p {
@@ -27,17 +26,29 @@ p {
 
 
 /* Generics  */
-
-
-/* utils  */
+img {
+    height: 150px;
+    float: left;
+}
 .container {
-    width: 75%;
+    max-width: 75%;
     margin: auto;
+}
+
+.column {
+float: left;
+text-align: center;
+width: calc(100% / 3);
+border: 1px solid black;
 }
 
 
 
 
+/* utils  */
 
 
-/* Sections  */
+
+
+
+/* Cards  */
