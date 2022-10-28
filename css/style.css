@@ -66,8 +66,7 @@ a {
     padding: 0.5rem;
 }
 
-
-
-
+.row {
+    margin: 0 -1rem;
+}
 /* utils  */
-
